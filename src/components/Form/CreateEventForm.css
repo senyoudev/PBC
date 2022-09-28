@@ -1,0 +1,73 @@
+
+.formLable{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 133%;
+  text-transform: capitalize;
+}
+
+Form{
+  padding: 50px 0;
+}
+
+div.formItems {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.formItems .rightItem{
+  width: 40%;
+}
+
+.formItems .leftItem{
+  width: 50%;
+}
+
+.chooseFile{
+  display: flex;
+  height: 40px;
+}
+
+.centerItem{
+  width: 100%;
+}
+
+.formBox{
+  background: #FFFFFF;
+  border: 1px solid rgba(146, 127, 242, 0.4);
+  box-shadow: 0.936979px 0.936979px 1.87396px rgba(0, 0, 0, 0.25);
+  border-radius: 13.4756px;
+}
+
+.submit{
+  background: #927FF2;
+  box-shadow: 0.936979px 0.936979px 1.87396px rgba(0, 0, 0, 0.25);
+  border-radius: 31px;
+  font-weight: 700;
+  font-size: 18.7396px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-left: 45%;
+  padding: 5px 28px;
+}
+
+.submit:hover{
+  background: #927FF2;
+}
+
+.formFile{
+  width: 60%;
+  margin-left: 20%;
+}
+
+.location-input {
+    width: 50%;
+    border: 1px solid #f5f5f5;
+    padding: 10px 10px;
+    background: #FFFFFF;
+    border: 1px solid rgba(146, 127, 242, 0.4);
+    box-shadow: 0.936979px 0.936979px 1.87396px rgb(0 0 0 / 25%);
+    border-radius: 13.4756px;
+}

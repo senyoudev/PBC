@@ -1,0 +1,32 @@
+th {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #1F054E;
+}
+
+.address{
+  font-weight: 400;
+  font-size: 15px;
+  color: #1F054E;
+}
+
+.requestDate{
+  font-weight: 500;
+  font-size: 15px;
+  color: rgba(53, 22, 117, 0.5);
+}
+
+.SingleMintButton{
+  width: 120px;
+  height: 24.21px;
+  background: #927FF2;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 13px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

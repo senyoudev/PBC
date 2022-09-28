@@ -1,0 +1,33 @@
+{
+  "name": "truffle",
+  "version": "1.0.0",
+  "description": "Truffle project with SimpleStorage contract",
+  "main": "truffle-config.js",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "test": "truffle test",
+    "compile": "truffle compile --all",
+    "migrateGanache": "truffle migrate --network developpement",
+    "migrate": "truffle migrate --network rinkeby",
+    "lint": "solhint contracts/**/*.sol",
+    "prettier:solidity": "./node_modules/.bin/prettier --write contracts/**/*.sol"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.3",
+    "@truffle/hdwallet-provider": "^2.0.14",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.7.0",
+    "solc": "^0.8.17",
+    "truffle": "^5.5.29",
+    "truffle-hdwallet-provider": "^1.0.17"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.2",
+    "prettier": "^2.7.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.24",
+    "solhint": "^3.3.7",
+    "solhint-plugin-prettier": "^0.0.5"
+  }
+}

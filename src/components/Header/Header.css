@@ -1,0 +1,40 @@
+.navbar {
+    background: url(../../images/background1.webp)!important;
+}
+
+.create-btn {
+    border-radius:5px;
+    background: #FFFFFF;
+    border: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #927FF2;
+    box-shadow: 0.936979px 0.936979px 1.87396px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.create-btn:hover {
+    background: #8b75f7;
+        border: #927FF2;
+        color: #FFFFFF;
+}
+
+.PageName{
+    font-weight: 700;
+    font-size: 23px;
+    text-transform: capitalize;
+    color: #927FF2;
+}
+
+.navBarLinks{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: rgba(31, 5, 78, 0.56);
+}
+
+.navBarLinks span{
+    padding-right: 40px;
+}

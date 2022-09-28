@@ -1,0 +1,31 @@
+.searchBarMain{
+  width: 40%;
+}
+
+.searchInput{
+  border-radius: 5px 0 0 5px;
+  box-shadow: 0.936979px 0.936979px 1.87396px rgba(0, 0, 0, 0.25);
+}
+
+.searchButton{
+  border-radius: 0px 5px 5px 0px;
+  background: #927FF2;
+  border: #927FF2;
+  font-weight: 700;
+  font-size: 18.7396px;
+  line-height: 28px;
+  color: #FFFFFF;
+  box-shadow: 0.936979px 0.936979px 1.87396px rgba(0, 0, 0, 0.25);
+}
+.searchButton:hover {
+  background: #8b75f7;
+  border: #927FF2;
+
+}
+
+@media screen and (max-width: 750px){
+  .searchBarMain{
+    width: 100%;
+  }
+  
+}

@@ -1,0 +1,63 @@
+.eventCard {
+  width: 252px;
+  height: 252px;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 24px rgba(53, 22, 117, 0.12);
+  border-radius: 20px;
+  margin: 10px;
+  position: relative;
+}
+
+.date {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  color: rgba(53, 22, 117, 0.5);
+  text-align: left;
+  padding: 15px 30px 5px;
+}
+
+.lineDecoration {
+  border: 1px solid #C3B2F4;
+  width: 50px;
+  height: 0px;
+}
+
+.eventDescription {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #1F054E;
+  padding: 0 30px;
+}
+
+.eventImageName {
+  position: absolute;
+  bottom: 3px;
+  width: 252px;
+  height: 69px;
+  background: #F1ECFF;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.eventImage {
+  width: 81px;
+  height: 81px;
+  background: url(../../images/poap22.jpg);
+  border: 2px solid #AC9881;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.eventName {
+  font-weight: 700;
+  font-size: 20px !important;
+  text-transform: capitalize;
+  color: #927FF2 !important;
+}

@@ -1,0 +1,53 @@
+.walletInfoContent{
+  width: 840px;
+  height: 359px;
+  background: #FFFFFF;
+  box-shadow: 5px 20px 40px 7px rgba(31, 5, 78, 0.1);
+  border-radius: 55px;
+}
+
+h1{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 53px;
+  text-transform: capitalize;
+  color: #1F054E; 
+}
+
+.walletInfoHeader p{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #351675;
+}
+
+.walletInfoContent p{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 29px;
+  color: rgba(31, 5, 78, 0.6);
+}
+
+.showInfoButton{
+  width: 440px;
+  height: 40px;
+  background-color: #927FF2;
+  border-radius: 100px;
+  border: none;
+  color: #FFFFFF;
+  font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    box-shadow: 0.936979px 0.936979px 1.87396px rgba(0, 0, 0, 0.25);
+    margin-top: 30px;
+    width: 840px;
+}
+
+.showInfoButton:hover{
+  background-color: #FFFFFF;
+  color: #927FF2;
+}
