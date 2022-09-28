@@ -48,7 +48,7 @@ function CreateEventForm() {
 
    const handleClose = () => {
     setShow(false);
-    return navigate(`/events/${url}`)
+    return navigate(`/${url}`)
    }
    const handleShow = () => setShow(true);
 

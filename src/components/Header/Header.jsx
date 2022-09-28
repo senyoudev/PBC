@@ -5,7 +5,7 @@ import {useNavigate} from 'react-router'
 import { LinkContainer } from "react-router-bootstrap";
 import { useWeb3React } from "@web3-react/core";
 import { injected } from "../Connectors";
-import web3 from "web3";
+
 
 function Header() {
   const { active, activate,chainId } = useWeb3React();
@@ -19,35 +19,7 @@ function Header() {
           console.log("error:", ex);
         }
       } else {
-          if (window.ethereum.networkVersion !== chainId) {
-            try {
-              await window.ethereum.request({
-                method: "wallet_switchEthereumChain",
-                params: [{ chainId: web3.utils.toHex(chainId) }],
-              });
-            } catch (err) {
-              // This error code indicates that the chain has not been added to MetaMask
-              if (err.code === 4902) {
-                await window.ethereum.request({
-                  method: "wallet_addEthereumChain",
-                  params: [
-                    {
-                      chainName: "Polygon Mainnet",
-                      chainId: web3.utils.toHex(chainId),
-                      nativeCurrency: {
-                        name: "MATIC",
-                        decimals: 18,
-                        symbol: "MATIC",
-                      },
-                      rpcUrls: ["https://polygon-rpc.com/"],
-                    },
-                  ],
-                });
-              }
-            }
-          }
-
-
+        console.log('active');
       }
     };
 
