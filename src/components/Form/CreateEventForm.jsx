@@ -79,7 +79,6 @@ function CreateEventForm() {
            const eventId = await contract?.contract?.methods
              .getLastEventID()
              .call();
-        console.log(eventId)
       setURl(`events/${eventId}`);
       handleShow(true)
       setName('')
@@ -246,6 +245,8 @@ function CreateEventForm() {
               required
               type="date"
               placeholder="DD/MM/YYYY"
+              disabled={startDate === ""}
+              min={startDate}
               className="formBox"
               value={enddate}
               onChange={(e) => setEndDate(e.target.value)}
@@ -266,7 +267,7 @@ function CreateEventForm() {
             />
           </Form.Group>
           <Form.Group controlId="formFile" className="mb-3  leftItem">
-            <Form.Label>NOAP Artwork</Form.Label>
+            <Form.Label>NOAP Image</Form.Label>
             <Form.Control
               name="artwork"
               type="file"
